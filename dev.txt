@@ -1,0 +1,57 @@
+- Downloading CI and setting it up
+	- .htaccess to remove index.php for URI
+	- use database
+	- use session
+	- couple of helpers
+- Downloading Fondation Zurb CSS and setting it up to work with CI
+- Creating basic template and empty page for copy/paste
+- Simple database schema for users and admins
+- User Controler
+	- Login page
+	- Testing login
+- User Model
+	- CRUD
+- Admin Controler
+	- Dashboard
+	- Settings
+		- Change Personal Info
+		- Change Account Info
+- Admin Model
+	- CRUD
+- Views
+	- Login
+	- Admin
+		- Dashboard
+		- Settings
+
+- Working on Users
+	- View
+	- Planing to use DataTables because they use json for loading content in tables... also they have integreted a lot of features like search and shit like that. (and Print, Download bla bla bla... - - TableTools i think)
+	- Will use Datatables with codeigniter and also found library on github with good licence "DON'T BE A DICK PUBLIC LICENSE"
+		- Clone link => https://github.com/IgnitedDatatables/Ignited-Datatables.git
+	
+        - Just finished with CRUD for administrators next one is profesori or hmm fakulteti we'll see...
+        - "Pus" pause break
+        - Ok fakulteti it is...
+            - New controller
+            - New model
+            - new test views
+            - CRUD
+        - Predmeti
+            - table fields bum bum.... 
+                - predmetId, predmetName, predmetFakultetId, predmetProfesorId, predmetStatus
+            - New controller
+            - New model
+            - new test views
+        - Student
+            - for now only CRUD and same as professors
+- Profesor Panel
+    - login
+    - redirect by level (or type)
+    - create default views and controllers
+    - settings
+    - navigation
+    - listing predmeti on dashboard
+    - just started to work on predmeti->materijali...->video_predavanja...->forum...->zadaci
+        - will use Reveal — Simple, Flexible Modal Dialogs.... documentation: http://foundation.zurb.com/docs/reveal.php
+ 
