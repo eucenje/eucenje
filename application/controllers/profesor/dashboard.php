@@ -17,6 +17,7 @@ class Dashboard extends CI_Controller {
             
             $this->session->set_userdata('userFirstName', $this->profesor->profesorFirstName);
             $this->session->set_userdata('userLastName', $this->profesor->profesorLastName);
+            //test if commit works!
         }
     }
 
