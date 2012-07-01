@@ -10,9 +10,10 @@ class Main extends CI_Controller {
 	function login()
 	{	
             
-		$this->form_validation->set_rules('userName', 'username', 'trim|required|callback__check_login');
-		$this->form_validation->set_rules('userPassword', 'password', 'trim|required');
+		$this->form_validation->set_rules('userName', 'Корисничко име', 'trim|required|callback__check_login');
+		$this->form_validation->set_rules('userPassword', 'Лозинка', 'trim|required');
 
+        $this->form_validation->set_message('required', "Полето %s е задолжително");
 		if($this->form_validation->run())
 		{
 			// the form has successfully validated
@@ -50,7 +51,7 @@ class Main extends CI_Controller {
 			if($user) return true;
 		}
 		
-		$this->form_validation->set_message('_check_login', 'Your username / password combination is invalid.');
+		$this->form_validation->set_message('_check_login', 'Вашето корисничкото име или лозинка е неточно!');
 		return false;
 	}
 }

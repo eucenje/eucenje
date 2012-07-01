@@ -1,9 +1,15 @@
 <div class="row">
     <div class="eight columns">
         <div class="panel">
-            <h5><?= $predmet->predmetName ?></h5>
+            <h5>Предмет: <?= $predmet->predmetName ?></h5>
             <hr/>
-            <p>Вкупно студенти на предметот: 12</p>
+            
+            <b>Кратка Статистика</b>
+            <hr style="width: 30%"/>
+            <p><a href="<?=base_url()?>profesor/students"/>Студенти</a> на предметот: 12</p>
+            <p><a href="<?=base_url()?>profesor/students"/>Лекции</a>: 5</p>
+            <p><a href="<?=base_url()?>profesor/students"/>Видео предавања</a>: 5</p>
+            <p><a href="<?=base_url()?>profesor/students"/>Теми на форумот</a>: 2</p>
         </div>
     </div>
     <div class="four columns">
