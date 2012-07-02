@@ -55,3 +55,6 @@
     - just started to work on predmeti->materijali...->video_predavanja...->forum...->zadaci
         - will use Reveal — Simple, Flexible Modal Dialogs.... documentation: http://foundation.zurb.com/docs/reveal.php
  
+!!!! New date -> september, 2012
+Project in developement till then...
+

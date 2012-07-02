@@ -42,11 +42,12 @@
 
             <div class="row">
                 <div class="nine columns"style="margin-top: 30px" >
-                    <h2>еУчење</h2>
+                    <h2 style="font-style: italic; color: #117537;">еУчење</h2>
                     <p>Професорски панел</p>
                 </div>
                 <div class="three columns last" style="margin: 40px 20px 0 0;">
                     <p>Добредојде, <?= $this->session->userdata['userFirstName'] . ' ' . $this->session->userdata['userLastName'] ?></p>
+                    <img src="<?=base_url()?>images/icons/user.png" width="16px"/>
                     <a href="<?= base_url() ?>profesor/settings">Профил</a> | <a href="<?= base_url() ?>logout">Одјава</a>
                 </div>
             </div>
